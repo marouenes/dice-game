@@ -45,24 +45,26 @@ Enter a single integer N where 1 <= N <= 1000000
 N: 4
 Enter N charchters wwhere each character is a digit from 1 to 6: 3245
 ```
->> Output
+>> Sample output:
 ```bash
 0
 4
 1
 ```
+
 > Example 2:
 >> Smaple input:
 ```bash
 18
 456116513656124566
 ```
->> Sample output
+>> Sample output:
 ```bash
 1
 4
 3
 ```
+
 > Example 3:
 >> Sample input:
 ```bash
@@ -78,7 +80,9 @@ Enter N charchters wwhere each character is a digit from 1 to 6: 3245
 
 :exclamation: No external modules/libraries needed to run the **`python`** scrtipts. But feel free to try out your own stuf on it.  
 
-Download the **`dice.py`** file and run it on your shell as an executable.
+## Run the script
+
+Download the **`dice.py`** file or clone the repository and run it on your shell as an executable.
 
 ```bash
 $ chmod +x dice.py
