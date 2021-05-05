@@ -1,8 +1,10 @@
-# dice game :octocat:
+[![grey_dice](https://emoji.gg/assets/emoji/grey_dice.png)](https://emoji.gg/emoji/grey_dice)
+
+# DICE ICE MICE
 
 Analyzing a sequence of throws of a little dicey, nothing fancy just a little coding game for fun.
 
-## Have some fun
+## Have some fun :octocat:
 
 Let's play dice! The traditional die is a cube. Each of its six faces shows a different number of dots from 1 to 6. Dice are used to produce results from 1 through 6. When a die is thrown (or rolled) and the die comes to rest, the face of the die that is uppermost provides the value of the throw. If an unbiased die is thrown, each value from 1 to 6 is equally likely.
 
@@ -34,15 +36,55 @@ Be aware. We are not interested in the most frequent lucky series. The four luck
 
 For example, in trial 5533661656, the series 656 is the longest lucky series. But there is only one lucky series of lenght three in the trial. 55 and 66 are also lucky series. This is why the correct answer is 2. In trial 456116513656124566 both the lucky series with length of 2 and 3 occur twice, there is a tie between them. Now the length of the longest (that is 3) should be printed. Examples **Task 1** and **Task 2** are aimed to make this situation clear. 
 
+### Examples
+
+> Example 1:
+>> Sample input:
+```bash
+Enter a single integer N where 1 <= N <= 1000000
+N: 4
+Enter N charchters wwhere each character is a digit from 1 to 6: 3245
+```
+>> Output
+```bash
+0
+4
+1
+```
+> Example 2:
+>> Smaple input:
+```bash
+18
+456116513656124566
+```
+>> Sample output
+```bash
+1
+4
+3
+```
+> Example 3:
+>> Sample input:
+```bash
+17
+56611166626634416
+```
+>> Sample output:
+```bash
+2
+4
+3
+```
+
 :exclamation: No external modules/libraries needed to run the python scripts. But feel free to try out your own stuf on it.  
 
-Download the *dice.py* file and run it on your shell as an executable.
+Download the **`dice.py`** file and run it on your shell as an executable.
 
 ```bash
 $ chmod +x dice.py
 $ ./dice.py
 ```
-## Enjoy! :+1: and feel free to experiment with it for you learning purposes.
+## Enjoy! :+1: and feel free to experiment with it for your learning purposes.
 
 
 
