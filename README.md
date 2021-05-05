@@ -12,7 +12,7 @@ This scripts is related to the analysis of sequences produced by rolling a die.
 
 ## Problem Context
 
-The input of the program is a so-called trial, i.e. a sequence of the rolled results. This input must be read from the <standard_input>. The first line of the input contains a single `integer` N, indicating the number of throws **$(1 \le N \le 1000000)$**. The second line of the input contains exactly N characters, each character is a digit from 1 to 6. For example, the `input` can be as follows:
+The input of the program is a so-called trial, i.e. a sequence of the rolled results. This input must be read from the <standard_input>. The first line of the input contains a single `integer` N, indicating the number of throws **(1 < N < 1000000)**. The second line of the input contains exactly N characters, each character is a digit from 1 to 6. For example, the `input` can be as follows:
 ```bash
 8
 32646135
